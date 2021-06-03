@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -153,31 +154,31 @@
                             <span class="nav-text">Gussie Singleton</span>
                         </a>
                     </li>
-                    <li class="navitem">
+                    <li class="nav-item">
                         <a href="#" class="nav-link">
                             <img src="img/Nora.png" alt="Photo: Nora Francis" class="nav-image">
                             <span class="nav-text">Nora Francis</span>
                         </a>
                     </li>
-                    <li class="navitem">
+                    <li class="nav-item">
                         <a href="#" class="nav-link">
                             <img src="img/Belle.png" alt="Photo: Belle Briggs" class="nav-image">
                             <span class="nav-text">Belle Briggs</span>
                         </a>
                     </li>
-                    <li class="navitem">
+                    <li class="nav-item">
                         <a href="#" class="nav-link">
                             <img src="img/Eunice.png" alt="Photo: Eunice Cortez" class="nav-image">
                             <span class="nav-text">Eunice Cortez</span>
                         </a>
                     </li>
-                    <li class="navitem">
+                    <li class="nav-item">
                         <a href="#" class="nav-link">
                             <img src="img/Emma.png" alt="Photo: Emma Hanson" class="nav-image">
                             <span class="nav-text">Emma Hanson</span>
                         </a>
                     </li>
-                    <li class="navitem">
+                    <li class="nav-item">
                         <a href="#" class="nav-link">
                             <img src="img/Leah.png" alt="Photo: Leah Berry" class="nav-image">
                             <span class="nav-text">Leah Berry</span>
@@ -196,8 +197,36 @@
                     </li>
                     </ul>
         </aside>
+        <main class="content">
+            <div class="channel">
+                <a href="#" class="channel-title">
+                    <img src="img/Belle.png" alt="" class="channel-avatar">
+                    <span class="channel-text">Dollie Blair</span>
+                </a>
+                <!-- Slider main container -->
+                <div class="swiper-container channel-slider"> 
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    </div>
+                                    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>  
+                <!-- swiper-container -->
+                
+            </div>
+        </main>
     </div>
     <!-- /.container -->
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+    <script src="js/main.js"></script>
 </body>
 </html>

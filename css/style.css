@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -14,6 +15,11 @@ body {
     padding-left: 32px;
     padding-right: 70px;
     margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff
 }
 .menu-button {
     padding: 0;
@@ -91,7 +97,22 @@ body {
     border-radius: 50%;
 }
 .sidebar {
+    position: fixed;
+    width: 15%;
+    left: 0;
+    top: 114px;
+    height: calc(100% - 114px);
+    overflow: auto;
     padding-left: 32px;
+    background-color: #fff;
+    padding-left: 12px;
+}
+.content {
+    width: 100%;
+    height: 400px;
+    margin-top: 85px;
+    padding-left: 15%;
+    padding-top: 30px; 
 }
 .nav-menu {
     margin-top: 0;
@@ -132,6 +153,24 @@ body {
     line-height: 23px;
     margin-bottom: 30px;
 }
+.channel-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #19202C;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+}
+.channel-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.channel-text {
+    margin-left: 20px;
+}
+
 
 
 
